@@ -65,7 +65,7 @@ public class PlatesBetweenCandles{
             int queryEntries = queries.length; // 一共有几条查询
             int[] res = new int[queryEntries]; // 存放结果
             int n = s.length();
-            int[] presum = new int[n]; // 为什么是n+1?
+            int[] presum = new int[n];
             int[] lefts = new int[n]; // 记录距离i最近的蜡烛的坐标（往右数）
             int[] rights = new int[n]; // 记录距离j最近的蜡烛的坐标（往左数）
             int num = 0;
