@@ -47,7 +47,7 @@ package leetcode.editor.cn;
 // Related Topics 数组 动态规划 👍 590 👎 0
 
 //Java：组合总和 Ⅳ
-public class CombinationSumIv{
+class CombinationSumIv{
     public static void main(String[] args) {
         Solution solution = new CombinationSumIv().new Solution();
         // TO TEST

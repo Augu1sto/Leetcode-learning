@@ -53,7 +53,7 @@ package leetcode.editor.cn;
 // Related Topics 数组 字符串 二分查找 前缀和 👍 61 👎 0
 
 //Java：蜡烛之间的盘子
-public class PlatesBetweenCandles{
+class PlatesBetweenCandles{
     public static void main(String[] args) {
         Solution solution = new PlatesBetweenCandles().new Solution();
         // TO TEST

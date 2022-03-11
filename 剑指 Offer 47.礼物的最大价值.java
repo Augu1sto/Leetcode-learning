@@ -27,7 +27,7 @@ package leetcode.editor.cn;
 // Related Topics 数组 动态规划 矩阵 👍 256 👎 0
 
 //Java：礼物的最大价值
-public class LiWuDeZuiDaJieZhiLcof{
+class LiWuDeZuiDaJieZhiLcof{
     public static void main(String[] args) {
         Solution solution = new LiWuDeZuiDaJieZhiLcof().new Solution();
         // TO TEST

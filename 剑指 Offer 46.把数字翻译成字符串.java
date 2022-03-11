@@ -21,7 +21,7 @@ package leetcode.editor.cn;
 // Related Topics 字符串 动态规划 👍 386 👎 0
 
 //Java：把数字翻译成字符串
-public class BaShuZiFanYiChengZiFuChuanLcof{
+class BaShuZiFanYiChengZiFuChuanLcof{
     public static void main(String[] args) {
         Solution solution = new BaShuZiFanYiChengZiFuChuanLcof().new Solution();
         // TO TEST

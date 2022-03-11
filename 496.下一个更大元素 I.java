@@ -50,7 +50,7 @@ package leetcode.editor.cn;
 import java.util.*;
 
 //Java：下一个更大元素 I
-public class NextGreaterElementI{
+class NextGreaterElementI{
     public static void main(String[] args) {
         Solution solution = new NextGreaterElementI().new Solution();
         // TO TEST

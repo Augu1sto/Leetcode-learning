@@ -31,7 +31,7 @@ package leetcode.editor.cn;
 // Related Topics 数组 动态规划 👍 223 👎 0
 
 //Java：股票的最大利润
-public class GuPiaoDeZuiDaLiRunLcof{
+class GuPiaoDeZuiDaLiRunLcof{
     public static void main(String[] args) {
         Solution solution = new GuPiaoDeZuiDaLiRunLcof().new Solution();
         // TO TEST

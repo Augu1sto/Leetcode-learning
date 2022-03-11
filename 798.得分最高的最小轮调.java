@@ -47,7 +47,7 @@ package leetcode.editor.cn;
 // Related Topics 数组 前缀和 👍 144 👎 0
 
 //Java：得分最高的最小轮调
-public class SmallestRotationWithHighestScore{
+class SmallestRotationWithHighestScore{
     public static void main(String[] args) {
         Solution solution = new SmallestRotationWithHighestScore().new Solution();
         // TO TEST

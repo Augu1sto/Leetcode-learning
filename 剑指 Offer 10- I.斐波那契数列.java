@@ -36,7 +36,7 @@ package leetcode.editor.cn;
 // Related Topics 记忆化搜索 数学 动态规划 👍 311 👎 0
 
 //Java：斐波那契数列
-public class FeiBoNaQiShuLieLcof{
+class FeiBoNaQiShuLieLcof{
     public static void main(String[] args) {
         Solution solution = new FeiBoNaQiShuLieLcof().new Solution();
         // TO TEST

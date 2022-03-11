@@ -27,7 +27,7 @@ package leetcode.editor.cn;
 // Related Topics 数组 分治 动态规划 👍 477 👎 0
 
 //Java：连续子数组的最大和
-public class LianXuZiShuZuDeZuiDaHeLcof{
+class LianXuZiShuZuDeZuiDaHeLcof{
     public static void main(String[] args) {
         Solution solution = new LianXuZiShuZuDeZuiDaHeLcof().new Solution();
         // TO TEST

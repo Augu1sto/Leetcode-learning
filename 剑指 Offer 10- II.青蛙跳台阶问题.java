@@ -33,7 +33,7 @@ package leetcode.editor.cn;
 // Related Topics 记忆化搜索 数学 动态规划 👍 249 👎 0
 
 //Java：青蛙跳台阶问题
-public class QingWaTiaoTaiJieWenTiLcof{
+class QingWaTiaoTaiJieWenTiLcof{
     public static void main(String[] args) {
         Solution solution = new QingWaTiaoTaiJieWenTiLcof().new Solution();
         // TO TEST

@@ -44,7 +44,7 @@ package leetcode.editor.cn;
 // Related Topics 动态规划 👍 121 👎 0
 
 //Java：掷骰子的N种方法
-public class NumberOfDiceRollsWithTargetSum{
+class NumberOfDiceRollsWithTargetSum{
     public static void main(String[] args) {
         Solution solution = new NumberOfDiceRollsWithTargetSum().new Solution();
         // TO TEST

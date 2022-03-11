@@ -43,7 +43,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Java：N 叉树的前序遍历
-public class NAryTreePreorderTraversal{
+class NAryTreePreorderTraversal{
     public static void main(String[] args) {
         Solution solution = new NAryTreePreorderTraversal().new Solution();
         // TO TEST

@@ -32,7 +32,7 @@ package leetcode.editor.cn;
 import java.util.Arrays;
 
 //Java：完全平方数
-public class PerfectSquares{
+class PerfectSquares{
     public static void main(String[] args) {
         Solution solution = new PerfectSquares().new Solution();
         // TO TEST

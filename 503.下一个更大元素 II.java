@@ -40,7 +40,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 //Java：下一个更大元素 II
-public class NextGreaterElementIi{
+class NextGreaterElementIi{
     public static void main(String[] args) {
         Solution solution = new NextGreaterElementIi().new Solution();
         // TO TEST

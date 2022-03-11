@@ -42,7 +42,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 //Java：最长不含重复字符的子字符串
-public class ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof{
+class ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof{
     public static void main(String[] args) {
         Solution solution = new ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof().new Solution();
         // TO TEST

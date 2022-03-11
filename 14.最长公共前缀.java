@@ -34,7 +34,7 @@ package leetcode.editor.cn;
 import java.util.Arrays;
 
 //Java：最长公共前缀
-public class LongestCommonPrefix{
+class LongestCommonPrefix{
     public static void main(String[] args) {
         Solution solution = new LongestCommonPrefix().new Solution();
         // TO TEST
