@@ -25,4 +25,4 @@ minStack.min();   --&gt; 返回 -2.
 <p>&nbsp;</p>
 
 <p>注意：本题与主站 155 题相同：<a href="https://leetcode-cn.com/problems/min-stack/">https://leetcode-cn.com/problems/min-stack/</a></p>
-<div><div>Related Topics</div><div><li>栈</li><li>设计</li></div></div><br><div><li>👍 294</li><li>👎 0</li></div>
+<div><div>Related Topics</div><div><li>栈</li><li>设计</li></div></div><br><div><li>👍 304</li><li>👎 0</li></div>

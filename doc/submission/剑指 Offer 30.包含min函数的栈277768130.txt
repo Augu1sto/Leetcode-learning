@@ -1,0 +1,40 @@
+    class MinStack {
+        Queue<Integer> minStack;
+        Deque<Integer> normStack;
+
+        /** initialize your data structure here. */
+        public MinStack() {
+            minStack = new PriorityQueue<>();
+            normStack = new LinkedList<>();
+        }
+
+        public void push(int x) {
+            minStack.offer(x);
+            normStack.push(x);
+        }
+
+        public void pop() {
+            int val = normStack.pop();
+            minStack.remove(val);
+        }
+
+        public int top() {
+            return normStack.peek();
+        }
+
+        public int min() {
+            return minStack.peek();
+        }
+    }
+
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack obj = new MinStack();
+ * obj.push(x);
+ * obj.pop();
+ * int param_3 = obj.top();
+ * int param_4 = obj.min();
+ */
+
+//runtime:13 ms
+//memory:43.3 MB
