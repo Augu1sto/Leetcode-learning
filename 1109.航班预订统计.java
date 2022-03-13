@@ -50,7 +50,7 @@ package leetcode.editor.cn;
 // Related Topics 数组 前缀和 👍 318 👎 0
 
 //Java：航班预订统计
-public class CorporateFlightBookings{
+class CorporateFlightBookings{
     public static void main(String[] args) {
         Solution solution = new CorporateFlightBookings().new Solution();
         // TO TEST

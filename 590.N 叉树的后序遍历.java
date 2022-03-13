@@ -44,7 +44,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Java：N 叉树的后序遍历
-public class NAryTreePostorderTraversal{
+class NAryTreePostorderTraversal{
     public static void main(String[] args) {
         Solution solution = new NAryTreePostorderTraversal().new Solution();
         // TO TEST
