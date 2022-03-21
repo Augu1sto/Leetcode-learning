@@ -130,7 +130,7 @@ class TheTimeWhenTheNetworkBecomesIdle{
             int waitTime = 0;
             for (int i = 1; i < n; i++) {
                 int ttime = dist[i]*2; // 发送直到收到回复的时间
-                int num = (ttime-1)/patience[i]; // 一共发了多少个信息
+                int num = ttime%patience[i]==0?(ttime/patience[i]-1):ttime/patience[i]; // 最后一个消息发出去前一共发了多少个信息
                 int total_time = num*patience[i] + ttime + 1;
                 waitTime = Math.max(waitTime, total_time);
             }
