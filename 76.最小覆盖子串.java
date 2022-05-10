@@ -1,7 +1,9 @@
 package leetcode.editor.cn;
 
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
+import java.util.Queue;
 
 /**
 给你一个字符串 s 、一个字符串 t 。返回 s 中涵盖 t 所有字符的最小子串。如果 s 中不存在涵盖 t 所有字符的子串，则返回空字符串 "" 。 
@@ -62,10 +64,27 @@ class MinimumWindowSubstring{
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public String minWindow(String s, String t) {
+            // 用tMap表存储t中所有字符及出现的次数
             Map<Character, Integer> tMap = new HashMap<>();
             for (int i = 0; i < t.length(); i++) {
                 int v = tMap.getOrDefault(t.charAt(i), 0) + 1;
                 tMap.put(t.charAt(i), v);
+            }
+            // 滑动窗口
+            int i = 0;
+            int ansL = 0, ansR = 0;
+            Queue<Integer> que = new LinkedList<>(); // 记录在s中的有效字符下标
+            for (int j = 0; j < s.length(); j++) {
+                char ch = s.charAt(j);
+                if (tMap.containsKey(ch)) {
+                    int n = tMap.get(ch);
+                    tMap.put(ch, n-1);
+                    que.offer(j); // 下标入队
+                }
+                // 检查是否覆盖
+                while(i<j) {
+
+                }
             }
         }
     }
